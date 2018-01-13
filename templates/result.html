@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+    <style type="text/css">
+            body
+            {
+                background-image: url("../static/bac.jpg");
+                background-repeat: no-repeat;
+                background-size:100% 1000px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <h1 class="text-center text-success">
+                    &nbsp数据结构课设
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-7 col-md-offset-3 column center-block" align="center">
+                <ul class="nav nav-tabs navbar-right" align="center">
+                    <li class="active">
+                         <a href="/result" target="_blank">结果显示</a>
+                    </li>
+                </ul>
+                <ul class="nav nav-tabs navbar-right" align="center">
+                    <li>
+                         <a href="/">数据录入</a>
+                    </li>
+                </ul>
+            </div>
+            <br><br>
+        </div>
+        <div style="text-align: center;">
+                <img src="{{ url_for('static',filename='pic.png') }}" alt="" align="center">
+        </div>
+    </div>
+</body>
+</html>
